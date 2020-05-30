@@ -1,0 +1,55 @@
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: right;
+}
+#h1{
+	background-color: green;
+}
+#h2{
+	background-color: red;
+}
+#h3{
+	background-color: blue;
+}
+h2 span{
+	background-color: #A52A2A;
+}
+#box{
+	border: 1px solid black;
+	margin-bottom: 10px;
+  	background-color: grey;
+  	width: 90%;
+  	height: 150px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	font-family: Helvetica;
+  	color: white;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    margin-bottom: 10px;
+  }
+ 
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-6,.col-md-12 {
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
